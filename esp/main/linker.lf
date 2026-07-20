@@ -1,0 +1,11 @@
+[mapping:my_app]
+archive: libmain.a
+entries:
+    my_reserved_ram (noinit)
+
+[my_reserved_ram]
+sections:
+    .my_reserved_bss:
+        . = ALIGN(4);
+        *(.my_reserved_bss)
+        *(.my_reserved_bss.*)

@@ -1,0 +1,16 @@
+CompileFlags:
+  Add:
+    - "-I/home/sergey/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include"
+    - "-I/home/sergey/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/include"
+    - "-include"
+    - "-I/home/sergey/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/sys-include"
+    - "--target=xtensa-esp32-elf"
+  Compiler: xtensa-esp32-elf-gcc
+  Remove:
+    - "-mlongcalls"
+    - "-fno-tree-switch-conversion"
+    - "-fstrict-volatile-bitfields"
+    - "-fno-shrink-wrap"
+    - "-fzero-init-padding-bits=all"
+    - "-fno-malloc-dce"
+    - "-fno-jump-tables"
