@@ -1,5 +1,5 @@
 # IMPORTANT NOTE
-If you're reading this repository from https://git.tu-berlin.de, please see the new-main branch. We just didn't have the necessary privileges to migrate from GitHub onto main in time. (WIP)
+This project was implemented by J. Pretzel, A. Newe, S. Goldstein, J. Lammers, and M. Berlin
 
 # ods-prog-prak
 This project aims to be a Proof of Concept implementation Federated Learning performed on a Flower.ai client with an ESP32 using ~300kB RAM.
