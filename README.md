@@ -1,9 +1,9 @@
 # IMPORTANT NOTE
 This project was implemented by J. Pretzel, A. Newe, S. Goldstein, J. Lammers, and M. Berlin
 
-<div style="text-align: center;">
-![system_architecture](assets/system_architecture.png)
-</div>
+<p align="center">
+  <img src="assets/system_architecture.png" />
+</p>
 
 # ods-prog-prak
 This project aims to be a Proof of Concept implementation Federated Learning performed on a Flower.ai client with an ESP32 using ~300kB RAM.
