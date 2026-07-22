@@ -2,7 +2,7 @@
 This project was implemented by J. Pretzel, A. Newe, S. Goldstein, J. Lammers, and M. Berlin
 
 <p align="center">
-  <img src="assets/system_architecture.png" />
+  <img src="assets/system_architecture.jpg" />
 </p>
 
 # ods-prog-prak
